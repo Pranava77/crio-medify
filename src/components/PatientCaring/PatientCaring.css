@@ -1,0 +1,219 @@
+
+.PatientCaring{
+    width: 100%;
+    height: 598px;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PatientCaringBody{
+    display: flex;
+    /* align-items: center; */
+    height: 100%;
+}
+
+.patientCaringTexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.patientCaringTagline{
+    font-weight: 600;
+    color: var(--primary);
+    font-size: 1rem;
+    line-height: 27px;
+}
+
+.noteList{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.noteListItem{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--dark);
+}
+
+.patientCaringImgDiv{
+    height: 100%;
+    flex: 1;
+    position: relative;
+}
+
+.pateintCareImage{
+    width: 332px;
+    /* height: 275px; */
+    aspect-ratio: 1.20727;
+    border: 5px solid var(--color-white);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.pateintCareImage1{
+    background-image: url("../../assets/pateint1.png");
+    top: 55px;
+    left: 200px;
+}
+.pateintCareImage2{
+    background-image: url("../../assets/pateint2.png");
+    bottom: 55px;
+    left: 100px;
+}
+
+.pateintCareButton{
+    position: absolute;
+    top: 150px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1091px) {
+    .pateintCareImage{
+        width: 275px;
+    }
+    .pateintCareImage1{
+        top: 100px;
+        left: 200px;
+    }
+    .pateintCareImage2{
+        bottom: 100px;
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 1090px) and (min-width: 1021px) {
+    .pateintCareImage{
+        width: 205px;
+    }
+    .pateintCareImage1{
+        top: 150px;
+        left: 200px;
+    }
+    .pateintCareImage2{
+        bottom: 150px;
+        left: 100px;
+    }
+    .pateintCareButton{
+        bottom: 100px;
+        top: auto;
+        right: 100;
+    }
+}
+
+@media screen and (max-width: 1020px) and (min-width: 900px) {
+    .pateintCareImage{
+        width: 205px;
+    }
+    .pateintCareImage1{
+        top: 150px;
+        left: 80px;
+    }
+    .pateintCareImage2{
+        bottom: 150px;
+        left: 10px;
+    }
+    .pateintCareButton{
+        bottom: 100px;
+        top: auto;
+        right: 100;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .PatientCaring{
+        /* height: -webkit-fill-available; */
+    }
+    .PatientCaringBody{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 700px) {
+
+    .patientCaringImgDiv{
+        width: 100%;
+    }
+    .pateintCareImage1{
+        top: -100px;
+        left: 350px;
+    }
+    .pateintCareImage2{
+        top: 100px;
+        left: 150px;
+    }
+    .pateintCareButton{
+        top: 10px;
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 600px) {
+
+    .pateintCareImage{
+        width: 250px;
+    }
+    .pateintCareImage1{
+        top: -100px;
+        left: 300px;
+    }
+    .pateintCareImage2{
+        top: 50px;
+        left: 150px;
+    }
+    .pateintCareButton{
+        top: 10px;
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 500px){
+
+    .pateintCareImage{
+        width: 250px;
+    }
+    .pateintCareImage1{
+        top: 10px;
+        left: 200px;
+    }
+    .pateintCareImage2{
+        top: 150px;
+        left: 100px;
+    }
+    .pateintCareButton{
+        top: 100px;
+        left: 50px;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+
+    .pateintCareImage{
+        width: 250px;
+    }
+    .pateintCareImage1{
+        top: 10px;
+        left: 0px;
+    }
+    .pateintCareImage2{
+        top: 150px;
+        left: 100px;
+    }
+    .pateintCareButton{
+        top: 300px;
+        left: 10px;
+    }
+}

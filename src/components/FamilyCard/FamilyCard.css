@@ -1,0 +1,44 @@
+
+.FamilyCard{
+    width: 242.5px;
+    aspect-ratio: 0.7976;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: 0px 15px 45px -5px #00000012;
+    background-color: var(--color-white);
+    gap: 1rem;
+}
+
+
+@media screen and (max-width: 900px){
+    .FamilyCard{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 750px){
+    .FamilyCard{
+        width: 200px;
+        gap: 0.5rem;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .FamilyCard{
+        width: 150px;
+    }
+    .FamilyCard img{
+        width: 75px;
+    }
+    .FamilyCard h3{
+        font-size: 1.5rem;
+    }
+    .FamilyCard p{
+        
+    }
+}

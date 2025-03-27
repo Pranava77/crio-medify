@@ -1,0 +1,98 @@
+
+.Button{
+    background-color: var(--primary);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.buttonIcon{
+    max-width: 12px;
+}
+.largeButton{
+    padding: 0.75rem 2.25rem;
+    font-weight: 500;
+}
+
+.navButton{
+    font-size: 0.875rem; /* 14px*/
+    line-height: 21px;
+    padding: 0.5rem 0.75rem;
+}
+
+.logoButton{
+    height: 23px;
+    aspect-ratio: 1;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paginateButton{
+    padding: 0.55rem 1rem;
+    line-height: 20.78px;
+}
+.whiteButton{
+    color: #333333;
+    border: 1px solid #F1F1F1;
+    background-color: white;
+}
+
+
+.greenButton{
+    color: var(--color-white);
+    background-color: var(--color-green);
+}
+.disablePaginateButton{
+    color: #F1F1F1;
+    border: 1px solid #F1F1F1;
+    background-color: white;
+}
+.longButton{
+    padding: 0.75rem 2.25rem;
+    width: 231px;
+    border-radius: 0.25rem;
+    font-size: 0.875rem; /* 14px*/
+}
+
+.buttonIcon{
+    max-width: 40px;
+}
+
+.smallButton{
+    padding: 0.125rem 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smallButton img{
+    max-width: 16px;
+}
+
+.blueButton-outlined{
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    background-color: inherit;
+}
+
+.blueButton-filled{
+    color: var(--color-white);
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.greenButton-outlined{
+    border: 1px solid var(--color-green);
+    color: var(--color-green);
+    background-color: inherit;
+}

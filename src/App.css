@@ -1,0 +1,43 @@
+
+.App{
+    width: 100vw;
+    height: 100%;
+    font-family: "Poppins", sans-serif;;
+}
+
+
+/* COMMON STYLES */
+.commonContainer{
+    width: 100%;
+    max-width: var(--appWidth);
+    height: 100%;
+    /* margin: 0 1rem; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.paddingForSmallScreens{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+/* screen below 1200px */
+@media screen and (max-width: 1200px) {
+    .commonContainer{
+        padding: 0 1rem;
+    }
+}
+
+.inheritBackground{
+    background-color: inherit !important;
+
+}

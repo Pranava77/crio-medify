@@ -1,0 +1,143 @@
+
+.Download{
+    min-height: 542px;
+    padding: 1rem;
+}
+
+.DownloadBody{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobilesWrapper{
+}
+
+.downloadTexts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: center;
+    /* min-height: 542px; */
+    /* flex: 1; */
+}
+
+.downloadTexts h3{
+    max-width: 400px;
+    text-align: left;
+}
+
+.downloadForm{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    /* flex-wrap: wrap; */
+}
+
+.curvedArrow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-150%, -100%);
+}
+.downloadFormInput{
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+    height: 49px;
+}
+.downloadFormInput span{
+    background-color: var(--color-white);
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+.downloadFormInput input{
+    border: none;
+    outline: none;
+    background-color: var(--color-white);
+    border-radius: 0 8px 8px 0;
+    height: 100%;
+    padding: 0 1rem;
+    flex: 1;
+}
+
+.downloadForm button{
+    min-width: 150px;
+    padding: 0.75rem 1rem;
+}
+
+.downloadButtons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .curvedArrow{
+        transform: scale(-1, 1) translateY(-125%);
+        left: 60%;
+    }
+
+    .DownloadBody{
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+    .downloadTexts{
+        gap: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .DownloadBody{
+        /* gap: 1rem; */
+        flex-direction: column-reverse;
+    }
+
+    .mobilesWrapper{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .downloadTexts{
+        gap: 1rem;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .downloadTexts{
+        align-items: center;
+    }
+    .curvedArrow{
+        left: 80%;
+    }
+    .downloadForm{
+        flex-direction: column !important;
+    }
+
+    .downloadFormInput input{
+        max-width: 75vw;
+    }
+
+    .downloadButtons img{
+        max-width: 150px;
+    }
+}

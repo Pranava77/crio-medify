@@ -1,0 +1,14 @@
+
+.CommonHeader{
+    color: var(--dark);
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 750px) {
+    .CommonHeader{
+        font-size: 2rem;
+    }
+}

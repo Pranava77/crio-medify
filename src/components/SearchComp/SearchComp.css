@@ -1,0 +1,70 @@
+
+.SearchComp{
+    /* width: var(--appWidth); */
+    position: absolute;
+    top: 53%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SearchCompBody{
+    padding: 1.6875rem 1.5rem; /*27px 24px*/
+    min-height: 429px;
+    border-radius: 1rem;
+    background-color: var(--color-white);
+    box-shadow: 6px 6px 35px 0px #1028511C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.SearchCompBody p{
+    color: var(--dark);
+    font-size: 1.25rem;/* font-size: 20px; */
+    font-weight: 500;
+}
+.cardsDivWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.cardsDiv{
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.SearchComp .SearchBar{
+    /* padding-left: 20%; */
+}
+
+@media screen and (max-width: 1200px) {
+    .SearchComp{
+        left: 1rem;
+        right: 1rem;
+    }
+}
+
+/* screens below 900px */
+@media screen and (max-width: 900px) and (min-width: 500px) {
+    .SearchComp{
+        top: 75%;
+    }
+}
+
+/* screens below 500px */
+@media screen and (max-width: 500px) {
+    .SearchComp{
+        top: 70%;
+    }
+}

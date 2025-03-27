@@ -1,0 +1,44 @@
+
+
+.CommonSubText{
+    font-size: 17px;
+    font-weight: 400;
+    color: #5C6169;
+    line-height: 2rem;
+    max-width: 570px;
+}
+
+.subTextForHero{
+    font-size: 20px;
+}
+
+/* screen below 1200px */
+@media screen and (max-width: 1200px) and (min-width: 1026px) {
+    .CommonSubText{
+        font-size: 18px;
+        /* max-width: 500px; */
+    }
+}
+
+@media screen and (max-width: 1025px) and (min-width: 900px) {
+   .CommonSubText{
+        font-size: 16px;
+        /* max-width: 500px; */
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .CommonSubText{
+        font-size: 14px;
+        /* max-width: 500px; */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .CommonSubText{
+        font-size: 14px;
+        /* max-width: 500px; */
+    }
+}

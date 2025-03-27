@@ -1,0 +1,90 @@
+
+.PersonCard{
+    padding: 0.5rem;
+    box-shadow: 0px 15px 55px -10px #00000017;
+    border-radius: 250px 250px 8px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.personImageDiv{
+    border-radius: 250px 250px 8px 8px;
+    background: linear-gradient(144.2deg, #E1F3FF 0%, #2AA7FF 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 394px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.personImageDiv img{
+    /* width: 90%; */
+    /* height: 95%; */
+}
+
+#doctorImg-1{
+    height: 90%;
+    aspect-ratio: 0.9;
+}
+
+#doctorImg-2{
+    height: 90%;
+    aspect-ratio: 0.80;
+}
+
+#doctorImg-3{
+    height: 90%;
+    aspect-ratio: 0.80;
+}
+
+#doctorImg-4{
+    height: 90%;
+    aspect-ratio: 0.7;
+}
+
+#doctorImg-5{
+    height: 90%;
+    aspect-ratio: 0.85;
+}
+.personName{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--dark);
+}
+
+.personSpecialization{
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+@media screen and (max-width: 900px) {
+    .personImageDiv{
+        border-radius: 250px 250px 8px 8px;
+        width: 200px;
+        height: 212px;
+    }
+    .personName{
+        font-size: 18px;
+    }
+    
+    .personSpecialization{
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--primary);
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    /* .personImageDiv{
+        border-radius: 250px 250px 8px 8px;
+        width: 200px;
+        height: 212px;
+    } */
+}

@@ -1,0 +1,97 @@
+
+.SearchResults{
+
+}
+.resultsBody{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.resultsHead{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.resultsHead h5{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.resultsHead p{
+    color: #787887;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.cardAndSensodyne{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.sensodyne{
+    width: 363px;
+    /* height: 268px; */
+    aspect-ratio: 1.354;
+    max-width: 95vw;
+    background-image: url("../../assets/sensodyne.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+.resultCardsArray{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 900px){
+    .cardAndSensodyne{
+        /* gap: 0.25rem; */
+    }
+    .resultCardsArray{
+        /* flex-shrink: 1; */
+        flex-grow: 1;
+    }
+    .sensodyne{
+        flex-shrink: 2;
+        /* flex-grow: 0; */
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .cardAndSensodyne{
+        flex-direction: column;
+    }
+}
+/* resultsBody */
+
+
+@media screen and (max-width: 650px){
+    .resultsBody{
+        padding-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .resultsHead h5{
+        font-size: 20px;
+    }
+    
+    .resultsHead p{
+        font-size: 14px;
+        gap: 0.5rem;
+    }
+}
